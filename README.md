@@ -1,2 +1,2 @@
-I have made a webpage for an e-commerce website made using html, css and javascript called "PickYourWay." The website appears to offer a variety of products, including clothing, shoes, watches, and more. Here's a brief description of the webpage's layout and features:
+I have made a webpage for an e-commerce website  using html, css and javascript called "PickYourWay." The website appears to offer a variety of products, including clothing, shoes, watches, and more. Here's a brief description of the webpage's layout and features:
 The webpage starts with a header section that includes a logo, a navigation bar with links to different pages (Home, About, Products, Contact, and Account), a shopping cart icon, and a menu icon for mobile devices.
