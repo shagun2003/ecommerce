@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products in PickYourWay</title>
+    <link rel="stylesheet" href="ecommerce.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container" style="background-color: lightgrey;">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo-black-removebg-preview.png" width="125px">
+            </div>
+            <nav>
+                <ul id="Menuitems">
+                    <li><a href="ecommerce.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="cart.png" width="30px" height="30px">
+            <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="container" style="background-color: lightgrey;">
+        <h1 class="pick">Welcome to PickYourWay</h1>
+        <h2 class="mainabout">Our Story</h2>
+        <p>PickYourWay was founded in 1957 and Discover a world of endless possibilities , where shopping
+            meets convenience and delight. From trendy fashion to changing lifestyle, we have something for
+            everyone! Get ready to indulge in an unparalleled shopping experience like never before..</p>
+        <h2 class="aboutus">What Sets Us Apart</h2>
+        <p>At PickYourWay we believe that shopping is more than just a transaction; it's an experience that should be
+            enjoyable and rewarding. Here are some of the key aspects that set us apart:</p>
+
+        <h3 class="sub">Personalized Recommendations</h3>
+        <p> We use advanced algorithms and data-driven insights to offer personalized product
+            recommendations based on your preferences, making your shopping journey seamless and tailored to your taste.
+        </p>
+
+        <h3 class="sub">Top Brands, Unbeatable Prices</h3>
+        <p>We partner with renowned brands to bring you the latest trends and premium
+            products at competitive prices. Quality and affordability go hand in hand at PickYourWay.</p>
+
+        <h3 class="sub">User-Friendly Interface</h3>
+        <p>Our website is designed with you in mind. Enjoy a user-friendly interface that allows
+            you to explore our vast selection effortlessly and find what you need in no time.</p>
+
+        <h3 class="sub">Secure and Smooth Transactions</h3>
+        <p>Your security is our priority. We use encrypted payment gateways to ensure your
+            transactions are safe and hassle-free.</p>
+
+        <h3 class="sub"> Fast and Reliable Shipping</h3>
+        <p>We know how eager you are to receive your purchases, which is why we have
+            established a reliable shipping network to deliver your orders promptly.</p>
+
+        <h2 class="aboutus">Our Commitment</h2>
+        <p>At PickYourWay, we are committed to providing an exceptional shopping experience for each and every
+            customer. Our dedicated customer support team is always here to assist you with any inquiries or concerns.
+            We take your feedback seriously and continuously strive to improve our services to exceed your expectations.
+        </p>
+        <h2 class="aboutus">Join the PickYourWay Community</h2>
+        <p>We believe that shopping should be fun and fulfilling. Join the PickYourWay community to stay updated on
+            the latest trends, exclusive offers, and exciting promotions. Connect with us on social media and be a part
+            of a vibrant community of shoppers.</p>
+            <h2 class="aboutus">Contact Us</h2>
+        <p>Have a question or need assistance? Our customer support team is available 24/7 to help you. Reach out to us via email, phone, or through our website's live chat feature.
+
+            Thank you for choosing YourShopPlace as your preferred shopping destination. We look forward to being a part of your shopping journey and making your experience truly remarkable.
+            
+            Happy Shopping!
+            
+            </p>
+
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo-white.png">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy </li>
+                        <li>Join Affiliate</li>
+                    </ul>
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 -Easy Tutorials</p>
+            </hr>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("Menuitems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+
+</html>

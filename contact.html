@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products in PickYourWay</title>
+    <link rel="stylesheet" href="ecommerce.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo-black-removebg-preview.png" width="125px">
+            </div>
+            <nav>
+                <ul id="Menuitems">
+                    <li><a href="ecommerce.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a>
+            <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="container"> `
+        <div class="row1">
+            <div class="col">
+                <h1>Customer Care</h1>
+                <h2 class="care">How We Can Help You ?</h2>
+                <div class="search">
+                    <input type="text" placeholder="Enter Your Query" spellcheck="false">
+                    <button class="btni">Submit</button>
+                </div>
+                <h4>For any problem Submit your query</h4>
+                  <h4>Contact Our Customer Care Services at <a href="" style="color:#0000EE">+915423678912</a></h4>
+                    <h4>Send Us Your Complaint Via Email on <a href="" style="color:#0000EE">singhfda@gmail.com</a></h4>
+            </div>
+            <div class="col">
+                <img src="tele1.jpeg">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo-white.png">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy </li>
+                        <li>Join Affiliate</li>
+                    </ul>
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 -Easy Tutorials</p>
+            </hr>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("Menuitems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+
+</html>
